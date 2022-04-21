@@ -1,6 +1,6 @@
 import React from 'react'
 import "./styles/Home.css"
-import img4 from './img4.jpg';
+
 
 const Home = () => {
 

@@ -3,8 +3,8 @@
    font-size: 1.6rem;
 }
 
-header{
-    background-image: url("../Images/img1.jpg");
+.header{
+ color: black;
 }
 .img{
     width: 20px;

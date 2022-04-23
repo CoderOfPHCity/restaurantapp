@@ -1,5 +1,7 @@
 import React from 'react';
 import "./styles/Home.css";
+import "./styles/product.css";
+
 import myImage from '../Img/pic.jpeg';
 import myImage2 from '../Img/pic2.jpg';
 import myImage3 from '../Img/pic3.jpg';

@@ -1,5 +1,4 @@
 import React from 'react'
-import "./styles/Home.css";
 import "./styles/product.css";
 import myPhoto from '../Img/pic.jpeg';
 import myPhoto1 from '../Img/pic2.jpg';

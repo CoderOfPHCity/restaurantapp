@@ -12,8 +12,9 @@ const Home = () => {
 
   return(
     <div className='bc'>
- <h3>Tasty Meals for Everyone</h3>
-          <div className='header'> 
+<h3>Tasty Meals for Everyone</h3>
+      <section className='Float'>
+         <div className='header'> 
  <div className='row' >
   
 <p className='headPage'>
@@ -28,6 +29,9 @@ const Home = () => {
     </div>
 
 </div>
+      </section>
+ 
+         
  
 
 

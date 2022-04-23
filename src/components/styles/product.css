@@ -1,9 +1,17 @@
 .ph{
     font-size: 6rem;
     width: 20rem;
-    border-radius: 3px;
+    border-radius: 30px;
     margin-bottom: .1rem;
     background-image: linear-gradient(to right, #7ed56f, #28b485);
     display: inline-block;
     color: transparent; 
+    display: inline-block;
 }
+
+@media (max-width: 56.25em) {
+    .ph {
+        width: 16rem;
+    } 
+}
+

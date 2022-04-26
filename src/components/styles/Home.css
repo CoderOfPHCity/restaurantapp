@@ -32,9 +32,15 @@ color: rgb(68, 138, 132);
 
 }
 @media (max-width: 56.25em) {
+     .headPage{
+        margin-left: -99px;    }
+}
+@media (max-width: 56.25em) {
     h3 {
       font-size: 2.4rem;
-        margin-top: 6rem;}}
+        margin-top: 6rem;}
+   
+    }
 .header1{
      width: calc((100% - 6rem) / 2);
      margin-right: 9rem;
@@ -116,9 +122,9 @@ color: rgb(68, 138, 132);
 }
 @media (max-width: 56.25em) {
     .imgg3 {
-    left: -75px;
+    left: -99px;
     top: -2rem;
-     width: 16rem;
+     width: 15rem;
      margin-top: 20px;
      border-radius: 90%;
       transform: scale(1.1); } }

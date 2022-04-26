@@ -10,16 +10,18 @@ import Contact from "./components/Contact";
 function App() {
   return (
     <div>
+     
+     
       <Navbar />
      
-      <About />
     <Routes>
         <Route path="/" element={<Home />} />
         <Route path="About" element={<About />} />
         <Route path="contact" element={<Contact />} />
         <Route path="products" element={<Product />} />
-      </Routes>
+      </Routes> 
       <Product />
+      <About />
       <Contact />
       
     <div className="container">

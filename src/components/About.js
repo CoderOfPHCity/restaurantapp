@@ -1,8 +1,8 @@
 import React from 'react'
 import "./styles/About.css";
-import myPhoto from '../Img/pic.jpeg';
-import myPhoto8 from '../Img/myPhoto8.jpg';
-import myPhoto9 from '../Img/myPhoto9.jpg';
+import myPhoto from '../Img/elon.jpg';
+import myPhoto8 from '../Img/nft.jpg';
+import myPhoto9 from '../Img/nft2.jpg';
 
 const About = () => {
   return (
@@ -26,7 +26,7 @@ women break into the blockchain ecosystem as well..</p>
     <div className="container1">
     <h2>Daniel Agantem</h2>
      <p className="title">CEO & Founder</p>
-     <p>e lorem ipsum  lorem.</p>
+     <p>e lorem ipsum  .</p>
       <p></p>
       <p><button className="button">Contact</button></p>
       </div>
@@ -39,7 +39,7 @@ women break into the blockchain ecosystem as well..</p>
         <div class="container1">
         <h2>Barmzy</h2>
           <p class="title">Frontend Dev</p>
-          <p>e lorem ipsum ipsum lorem.</p>
+          <p>e lorem ipsum ipsum .</p>
         <p></p>
           <p><button class="button">Contact</button></p>
         </div>
@@ -52,7 +52,7 @@ women break into the blockchain ecosystem as well..</p>
       <div className="container1">
       <h2>John Max</h2>
         <p className="title">Designer</p>
-        <p> lorem ipsum lorem ipsum lorem.</p>
+        <p> lorem ipsum lorem ipsum .</p>
         <p></p>
         <p><button  className="button">Contact</button></p>
         </div>

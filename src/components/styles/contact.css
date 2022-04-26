@@ -67,6 +67,11 @@ width: 50px;
         width: 36px;
         text-align: center;
     } }
+    @media (max-width: 37.25em) {
+      .contact-social ul li a {
+          text-align: center;
+        
+      } }
 
 .contact-social ul li a:hover {
 border: 3px solid white;

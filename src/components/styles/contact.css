@@ -45,7 +45,7 @@ margin: 0 10px;
 }
 
 .contact-social {
-margin-top: 30px;
+margin-top: 3px;
 }
 
 .contact-social > ul {
@@ -56,9 +56,9 @@ display: inline-flex;
 border: 1px solid #8b9199;
 color: #8b9199;
 display: inline-block;
-height: 30px;
+height: 40px;
 margin: 0 10px;
-padding: 6px;
+padding: 1px;
 transition: all 0.4s ease 0s;
 width: 50px;
 }
@@ -82,6 +82,7 @@ margin-top: 4rem;
 border-top: 1.3px solid grey;
 background: #2e343f;
 color: white;
+margin-top: 1px;
 }
 
 footer p {
@@ -110,4 +111,76 @@ margin-top: -2px;
 .hover-target{
     width: 4rem;
 
+}
+
+
+.formG:not(:last-child) {
+    margin-bottom: 2rem; }
+  
+  
+  
+  .formI {
+    color: black;
+    font-size: 1.9rem;
+    font-family: inherit;
+    padding: 1.5rem 2rem;
+    border-radius: 4px;
+    background-color: rgba(114, 109, 109, 0.5);
+    border: none;
+    display: block;
+    width: 75%;
+    transition: all 3s; }
+    .formI::-webkit-input-placeholder {
+      color: #999; }
+    .formI:focus {
+      outline: none;
+      box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.1);
+      border-bottom: 3px solid #55c57a; }
+    .formI:focus:invalid {
+      border-bottom: 3px solid rgb(8, 8, 8); }
+  
+  .formI:placeholder-shown + .formL {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-4rem); }
+  
+  .formL {
+    font-size: 1.5rem;
+    font-weight: 4rem;
+    margin-left: 2rem;
+    margin-top: .7rem;
+    display: block; }
+    .container {
+        background-size: 100%;
+        background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 50%, transparent 50%), url('../img3.jpg');
+        width: 100%;
+        margin-bottom: 1rem;
+        border-radius: 3px;
+        box-shadow: 0 1.5rem 4rem black, 0.2; }
+        @media (max-width: 56.25em) {
+          .book {
+            padding: 10rem 0;
+            background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 70%, transparent 70%), url(../img3.jpg); } }
+        @media (max-width: 37.5em) {
+          .book {
+            padding: 10rem 0;
+            background-image: linear-gradient(105deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.9) 100%, transparent 100%), url(../img3.jpg); } }
+        .bookF {
+          width: 50%;
+          padding: 4rem; }
+          @media (max-width: 37.5em) {
+            .bookF {
+                padding: 2rem;
+              width: 100%; } }
+
+.contacthead{
+    text-align: center;
+    font-weight: 900;
+    font-size: 4rem;
+}
+.btn1{
+    font-size: 1.8rem;
+}
+.secBook{
+    padding: 15rem 0;
 }

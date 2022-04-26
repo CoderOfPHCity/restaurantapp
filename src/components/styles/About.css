@@ -1,0 +1,96 @@
+
+    
+    *, *:before, *:after{
+    box-sizing: inherit;
+    }
+    
+    .column{
+    float: left;
+    width: 55%;
+     margin-bottom: 16px;
+     padding: 0 8px;
+     
+    }
+    .row{
+        text-align: center;
+        margin-left: 72px;
+        
+        
+
+    }
+    html {
+        box-sizing: border-box;
+        }
+    p{
+        font-size: 1.6rem;
+        font-weight: 700;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .h22{
+        font-size: 2rem;
+        font-family: Georgia, 'Times New Roman', Times, serif;  }
+    
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      margin: 2px;
+      
+      
+    
+    }
+    .contactsec{
+        text-align: center;
+        margin: 1px;
+    }
+    
+    .about-section {
+      padding: 50px;
+      text-align: center;
+      background-color: #474e5d;
+      color: white;
+    }
+    
+    .container1 {
+      padding: 0 16px;
+    }
+    
+    .container1::after, .row::after {
+     content: "";
+     clear:both;
+     display:table;
+    }
+    
+    .title {
+     color: grey;
+    }
+    
+    .button{
+     border:none;
+     outline:0;
+     display:inline-block;
+     padding:8px;
+     color:white;
+     background-color:#000;
+     text-align:center;
+     cursor:pointer;
+     width:100%;
+    }
+    
+    .button:hover{
+     background-color: #555;
+    }
+    
+    @media screen and (max-width: 56.25em) {
+     .column {
+     width:100%;
+     display: block;
+        } 
+         .p{
+                font-size:1rem ;
+                font-weight: 100s;
+            }  }
+    
+
+.imgAbout{
+    width: 100%;
+    
+}

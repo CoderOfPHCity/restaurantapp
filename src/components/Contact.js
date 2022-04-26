@@ -3,7 +3,36 @@ import "./styles/contact.css";
 
 const Contact = () => {
   return (
+    <div className='secBook'> 
+
+       <div className='container'>
+
+  <div className='.headPage'>
+      <h2 className='contacthead'> Book Meals Now</h2>
+  </div>
+  <div className='bookF'>
+    <form action='rewsre' className='form'>
+      <div className='formG'>
+        <input type= 'text' className='formI' placeholder='Fullname' id='name' required />
+        <label for = 'name' className='formL'>Fullname</label>
+      </div>
+      <div className='formG'>
+        <input type= 'email' className='formI' placeholder='Email' id='Email' required />
+        <label for = 'name' className='formL'>Email address</label>
+      </div>
+
+      <div className='formG'>
+        <button className='btn btn1'>Contact Us! &rarr;</button>
+
+      </div>
+
+    </form>
+
+  </div>
+  </div>
+
     <div className='footer'>
+ 
       <section className="contact-area contact">
         <div className="container">
             <div className="row">
@@ -32,6 +61,8 @@ const Contact = () => {
         <p>Copyright &copy; 2022  Built As Sidehustle capstone Project</p>
     </footer>
     </div>
+    </div>
+  
   )
 }
 

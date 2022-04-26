@@ -8,6 +8,7 @@ import myImage3 from '../Img/pic3.jpg';
 
  
 const Home = () => {
+  
 
 
   return(

@@ -26,7 +26,7 @@ women break into the blockchain ecosystem as well..</p>
     <div className="container1">
     <h2>Daniel Agantem</h2>
      <p className="title">CEO & Founder</p>
-     <p>e lorem ipsum  .</p>
+     <p></p>
       <p></p>
       <p><button className="button">Contact</button></p>
       </div>
@@ -39,7 +39,7 @@ women break into the blockchain ecosystem as well..</p>
         <div class="container1">
         <h2>Barmzy</h2>
           <p class="title">Frontend Dev</p>
-          <p>e lorem ipsum ipsum .</p>
+          <p></p>
         <p></p>
           <p><button class="button">Contact</button></p>
         </div>
@@ -52,7 +52,7 @@ women break into the blockchain ecosystem as well..</p>
       <div className="container1">
       <h2>John Max</h2>
         <p className="title">Designer</p>
-        <p> lorem ipsum lorem ipsum .</p>
+        <p> </p>
         <p></p>
         <p><button  className="button">Contact</button></p>
         </div>

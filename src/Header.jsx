@@ -10,6 +10,7 @@ function Header({ text, bgColor, textColor }) {
   return (
     <header style={headerStyles}>
       <div className='container'>
+        <h1>Feedback UI</h1>
       </div>
     </header>
   )

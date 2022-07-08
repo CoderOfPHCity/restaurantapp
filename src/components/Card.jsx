@@ -13,7 +13,7 @@ function Card({children, reverse}) {
   )
 }
 
-Card.defaultProps = {
+Card.defaultProps = { 
     reverse: false,
 }
 

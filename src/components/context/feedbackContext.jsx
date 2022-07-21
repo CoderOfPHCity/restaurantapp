@@ -20,7 +20,7 @@ export const feedbackprovider = ({children}) =>{
 
       const [feedEdit, setfeedEdit] = useState({
           item: {},
-          edit:false,
+          edit:false
 
       })
 
@@ -37,7 +37,14 @@ export const feedbackprovider = ({children}) =>{
         setfeedback([newFeedback, ...feedback])
     
     
+      } 
+     const  upDatefeed = (id, upditem) =>{
+         setfeedback(
+             feedback.map((item) => (item.id === id ? { ...item, ...upditem } : item))
+         )
+          
       }
+
 
     return(
 
@@ -46,6 +53,8 @@ export const feedbackprovider = ({children}) =>{
             handleDel,
             addFeed,
             editFeed,
+            upDatefeed, 
+            feedEdit
         }}>
         {children}
 

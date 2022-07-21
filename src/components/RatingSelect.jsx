@@ -1,20 +1,27 @@
 import React from 'react'
+import { useContext, useState } from 'react'
+import { useEffect } from 'react'
+import feedbackContext from './context/feedbackContext'
 
-function RatingSelect({ select, selected }) {
+function RatingSelect({ select }) {
   // NOTE: We don't need local state here as it's a duplicate of parent state
   // also no real need for useEffect or context
-  // useEffect(() => {
-  //   select(feedbackEdit.item.rating)
-  // }, [feedbackEdit])
+  const { selected, setSelected } = useState(10)
+  const { feedbackEdit } = useContext(feedbackContext)
+
+   useEffect(() => {
+     setSelected(feedbackEdit.item.rating)
+   }, [feedbackEdit])
 
   const handleChange = (e) => {
+    setSelected(+e.currentTarget.value)
     select(+e.currentTarget.value)
   }
 
   // NOTE: simplified with iteration
   return (
     <ul className='rating'>
-      {Array.from({ length: 10 }, (_, i) => (
+      {Array.from({ length: 10 }, (_, i) => ( 
         <li key={`rating-${i + 1}`}>
           <input
             type='radio'

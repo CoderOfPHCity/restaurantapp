@@ -5,16 +5,16 @@ import {useContext} from 'react'
 import feedbackContext from './components/context/feedbackContext'
 
 function FeedbackItem({ item}) { 
-  const {handleDelete, editFeed} = useContext(feedbackContext)
+  const {handleDel, editFeed} = useContext(feedbackContext)
   return (
     <Card>
         <div className="num-display">{item.rating}</div>
-        <button className='close' onClick={() => handleDelete(item.id)}>
+        <button className='close' onClick={() => handleDel(item.id)}>
           <FaTimes color='purple'/>
 
         </button>
         <button onClick={() => editFeed(item)} className='edit'><FaEdit color='purple' /> </button>
-        <div className="text-display">{item.text}</div>
+        <div className="text-display">{item.text}</div> 
       
     </Card>
   )
